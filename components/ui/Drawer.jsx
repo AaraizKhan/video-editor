@@ -1,4 +1,7 @@
 // Drawer.jsx
+// This component is responsible for rendering a drawer that slides in from the left side of the screen.
+// It displays dynamic content based on the selected menu item in the Navbar component.
+
 import React from 'react';
 import { FaArrowLeft} from 'react-icons/fa';
 

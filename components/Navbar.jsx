@@ -1,3 +1,6 @@
+// Navbar.js - This component renders a navigation bar with 
+// icons and a drawer that displays context-specific content based on user selection.
+
 'use client'
 import React, { useState } from 'react';
 import { FaArrowLeft, FaImage, FaClosedCaptioning, FaFont, FaMusic, FaVideo, FaCut, FaRobot } from 'react-icons/fa';
