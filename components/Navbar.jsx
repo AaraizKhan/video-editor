@@ -122,7 +122,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#252528] text-white w-24 h-screen p-4 flex flex-col items-center justify-between">
+    <div className="bg-[#252528] border-[1px] border-gray-600 text-white w-24 h-screen p-4 flex flex-col items-center justify-between">
       {navItems.map((item, index) => (
         <div key={index} className="flex items-center space-x-2 w-full" onClick={() => {
           if (item.name === 'Back') {
