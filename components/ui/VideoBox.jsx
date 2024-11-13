@@ -14,7 +14,7 @@ function VideoBox({ videoSrc }) {
   }, [videoSrc]); // This effect runs whenever the videoSrc changes
 
   return (
-    <div className="w-[950px] h-[320px] bg-transparent fixed right-0 top-0 border border-gray-300 p-4 shadow-lg z-10">
+    <div className="w-[950px] h-[320px] bg-transparent fixed right-0 top-0 border border-b-0 border-gray-300 p-4 shadow-lg z-10">
       {/* Header with title and export button */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold text-gray-700">Untitled Video</h2>
